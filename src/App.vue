@@ -1,6 +1,6 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+// import TheWelcome from "./components/TheWelcome.vue";
 import NavigationBar from "./components/NavigationBar.vue";
 
 </script>
@@ -29,15 +29,15 @@ import NavigationBar from "./components/NavigationBar.vue";
 </template>
 
 <style>
-@import "./assets/base.css";
+/* @import "./assets/base.css"; */
 
-#app {
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
 
   font-weight: normal;
-}
+} */
 
 header {
   line-height: 1.5;
@@ -67,11 +67,11 @@ header {
     place-items: center;
   } */
 
-  #app {
+  /* #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+  } */
 
   /* header {
     display: flex;
